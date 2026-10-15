@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+    text-align: center;
+}
+
+.header__desc{
+    color: gray;
+}
+
+.card img{
+    height: 300px;
+    width: 200px;
+}
+
+.card__item{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    border: solid black 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card button{
+    border: solid transparent 1px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card button:hover{
+    background-color: orange;
+    cursor: pointer;
+    border: solid black 1px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__table{
+    display: inline-block;
+    
+}
+
+.footer__button{
+background-color: yellow;
+width: 500px;
+padding: 5px;
+
+}
